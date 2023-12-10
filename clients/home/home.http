@@ -1,0 +1,2 @@
+### 메뉴 상세 정보 조회
+GET http://localhost:8081/apis/home

@@ -1,0 +1,12 @@
+### 주문정보 조회
+GET http://localhost:8081/apis/orders/1?customerId=1
+
+### 주문서 이력 조회
+GET http://localhost:8081/apis/order-histories
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+
+{
+  "customerId": 3,
+  "orderStatus": "READY"
+}

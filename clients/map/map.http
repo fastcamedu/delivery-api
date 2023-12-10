@@ -1,0 +1,2 @@
+### 구글 맵 조회
+GET http://localhost:8081/apis/geocode?lat=37.6427433&lng=127.240233

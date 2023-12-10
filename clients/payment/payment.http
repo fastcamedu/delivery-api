@@ -1,0 +1,9 @@
+POST http://localhost:8081/apis/payments
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+
+{
+  "checkoutId": 6,
+  "customerId": 3,
+  "paymentMethod": "CREDIT_CART"
+}

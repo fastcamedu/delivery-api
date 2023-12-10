@@ -1,0 +1,30 @@
+spring:
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    username: app
+    password: app123!@#
+    url: "jdbc:mysql://localhost:3306/food_delivery?useSSL=false&allowPublicKeyRetrieval=true"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  devtools:
+    livereload:
+      enabled: false
+
+payment:
+  pg-id: 123456789
+
+server:
+  port: 8081
+  role-name: delivery-api
+
+jwt:
+  key: fastcampus-education-kotlin-project
+  access-token-expiration: 3600000
+  refresh-token-expiration: 86400000
+
+google:
+  map:
+    url: "https://maps.googleapis.com/maps/api/geocode/json"

@@ -1,0 +1,5 @@
+### 상점 상세 정보 및 메뉴 목록 조회
+GET http://localhost:8081/apis/display/stores/1
+
+### 카테고리에 속한 상점 목록
+GET http://localhost:8081/apis/categories/stores?categoryId=1

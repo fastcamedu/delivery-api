@@ -1,0 +1,6 @@
+### Store Search
+GET http://localhost:8081/apis/search?keyword=치킨
+
+### Store Search with ReviewGrade 필터
+GET http://localhost:8081/apis/search?keyword=치킨&reviewGradeFilterValue=5
+

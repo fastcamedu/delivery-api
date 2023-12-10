@@ -1,0 +1,8 @@
+GET http://localhost:8081/apis/checkouts?customerId=3
+Content-Type: application/json
+Authorization: Bearer {{auth_token}}
+
+{
+  "customerId": 3,
+  "discountId": 0
+}
