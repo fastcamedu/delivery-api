@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController
 class DeliveryHomeController(
     private val favoriteStoreService: FavoriteStoreService,
 ) {
-
     companion object {
         private val logger = KotlinLogging.logger(this::class.java.name)
     }
