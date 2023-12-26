@@ -24,3 +24,6 @@ flowchart LR
 
 # 고객 앱 화면
 ![mobile-home.png](docs%2Fimages%2Fmobile-home.png)
+
+# Swagger UI
+- http://localhost:8081/swagger-ui/swagger-ui.html
