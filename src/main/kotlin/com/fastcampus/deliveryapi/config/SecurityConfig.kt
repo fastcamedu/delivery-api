@@ -45,7 +45,8 @@ class SecurityConfig(
                         "/apis/stores/**", "/apis/home/**",
                         "/apis/display/**",
                         "/apis/search",
-                        "/apis/geocode"
+                        "/apis/geocode",
+                        "/swagger-ui/**",
                     )
                     .permitAll()
                     .requestMatchers("/apis/customer/**")
